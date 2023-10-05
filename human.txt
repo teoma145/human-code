@@ -1,0 +1,40 @@
+Perché ci si mette sempre un’ora a scegliere cosa guardare la sera? Certo è difficile mettere d’accordo i gusti di tutti, poi dipende anche in base al tempo (o al sonno) che abbiamo. Delle volte si pensa di vedere quel bel film che ci hanno consigliato, mentre altre volte si viene risucchiati da quella serie tv che ci tiene incollati allo schermo. Che senso di vuoto quando poi finisce!
+
+1 tempo a disposizione?
+    1.1 si --> vai al punto 2
+    
+    1.2 no --> vai a dormire
+    
+2 Accendiamo la televisione
+
+3 Apriamo Netflix
+
+4 hai a dispozione più di 2 ore?
+    4.1 si --> vai al punto 5a
+    4.2 no --> vai al punto 5b
+    
+5a Scelta del film/serie TV che dura più due ore
+    5.1 film --> vai al punto 6
+    5.2 serie TV --> vai al punto 6
+    
+6a proposta di un genere random tra i primi 10
+    6.1 se l'utente ha scelto vai al punto 7
+    6.2 altrimenti torna al punto 6 e togli il genere dalla lista 
+
+7a proposta di un film o serie tv random all'interno del genere scelto 
+    7.1 se l'utente ha scelto vai al punto 8
+    7.2 altrimenti torna al punto 7 e togli il film dalla lista
+
+5b Scelta del film/serie TV che dura meno due ore
+    5b.1 film --> vai al punto 6b
+    5b.2 serie TV --> vai al punto 6b
+
+6b proposta di un genere random tra i primi 10
+    6b.1 se l'utente ha scelto vai al punto 7b
+    6b.2 altrimenti torna al punto 10 e togli il genere dalla lista 
+
+7b proposta di un serie tv random all'interno del genere scelto 
+    7b.1 se l'utente ha scelto vai al punto 8
+    7b.2 altrimenti torna al punto 11 e togli il film dalla lista
+    
+8 inizio a vedere il film/serie tv.
